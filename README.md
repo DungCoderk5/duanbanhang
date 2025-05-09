@@ -49,33 +49,22 @@ Dự án này là một ứng dụng bán hàng online cho phép người dùng 
 Server sẽ chạy ở địa chỉ: http://localhost:5000
 
  ### Các Tính Năng Chính
- #### Frontend:
+#### Frontend:
+- Trang chủ hiển thị danh sách sản phẩm.
+- Trang chi tiết sản phẩm.
+- Giỏ hàng và thanh toán.
+ #### Backend:
+ - API để lấy danh sách sản phẩm.
+ - API để xử lý đơn hàng và thanh toán.
+ - Xác thực người dùng (nếu có).
 
-Trang chủ hiển thị danh sách sản phẩm.
+#### Các Công Nghệ Sử Dụng:
+- React
+- Next.js
+- Node.js
+- Express
+- MongoDB / MySQL
 
-Trang chi tiết sản phẩm.
-
-Giỏ hàng và thanh toán.
-
- **Backend:**
- API để lấy danh sách sản phẩm.
-
- API để xử lý đơn hàng và thanh toán.
-
- Xác thực người dùng (nếu có).
-
-Các Công Nghệ Sử Dụng
-React
-
-Next.js
-
-Node.js
-
-Express
-
-MongoDB / MySQL
-
-Các Câu Lệnh Hữu Ích
-Chạy frontend: npm run dev (Frontend chạy trên port 3000)
-
-Chạy backend: npm start (Backend chạy trên port 5000)
+### Các Câu Lệnh Hữu Ích
+- Chạy frontend: npm run dev (Frontend chạy trên port 3000)
+- Chạy backend: npm start (Backend chạy trên port 5000)
