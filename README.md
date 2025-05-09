@@ -59,11 +59,11 @@ Giỏ hàng và thanh toán.
 
 #### Backend:
 
-# API để lấy danh sách sản phẩm.
+**API để lấy danh sách sản phẩm.**
 
-# API để xử lý đơn hàng và thanh toán.
+**API để xử lý đơn hàng và thanh toán.**
 
-# Xác thực người dùng (nếu có).
+**Xác thực người dùng (nếu có).**
 
 Các Công Nghệ Sử Dụng
 React
