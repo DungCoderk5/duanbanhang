@@ -28,43 +28,28 @@ Dự án này là một ứng dụng bán hàng online cho phép người dùng 
    ```bash
    git clone https://github.com/username/duanbanhang.git
    cd duanbanhang/frontend
-Cài đặt các dependencies:
-
-bash
-Copy
-Edit
-npm install
-Chạy ứng dụng:
-
-bash
-Copy
-Edit
-npm run dev
+2. Cài đặt các dependencies:
+    ```bash
+    npm install
+4. Chạy ứng dụng:
+    ```bash
+    npm run dev
 Ứng dụng sẽ chạy ở địa chỉ: http://localhost:3000
 
-Cài Đặt Backend
-Chuyển đến thư mục backend:
-
-bash
-Copy
-Edit
-cd duanbanhang/backend
-Cài đặt các dependencies:
-
-bash
-Copy
-Edit
-npm install
-Chạy server:
-
-bash
-Copy
-Edit
-npm start
+### Cài Đặt Backend
+1. Chuyển đến thư mục backend:
+     ```bash
+      cd duanbanhang/backend
+2. Cài đặt các dependencies:
+     ```bash
+    npm install
+3. Chạy server:
+     ```bash
+    npm start
 Server sẽ chạy ở địa chỉ: http://localhost:5000
 
-Các Tính Năng Chính
-Frontend:
+ ### Các Tính Năng Chính
+ #### Frontend:
 
 Trang chủ hiển thị danh sách sản phẩm.
 
@@ -72,7 +57,7 @@ Trang chi tiết sản phẩm.
 
 Giỏ hàng và thanh toán.
 
-Backend:
+#### Backend:
 
 API để lấy danh sách sản phẩm.
 
