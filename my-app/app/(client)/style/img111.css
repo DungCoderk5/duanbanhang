@@ -1,0 +1,29 @@
+.avatar-upload {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    overflow: hidden; /* Đảm bảo các phần tử không bị tràn ra ngoài div */
+    border-radius: 50%; /* Cắt góc div tròn */
+}
+
+.avatar-upload .edit-icon {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 12px;
+    opacity: 0; /* Ẩn icon mặc định */
+    transform: translateY(10px); /* Di chuyển icon xuống dưới một chút */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Mượt mà cho opacity và vị trí */
+    z-index: 10;
+}
+
+.avatar-upload:hover .edit-icon {
+    opacity: 1; /* Hiển thị icon khi hover */
+    transform: translateY(0); /* Di chuyển icon lên vị trí ban đầu */
+}

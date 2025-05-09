@@ -1,0 +1,62 @@
+.bread-crumb {
+    background-color: #efefef;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(//bizweb.dktcdn.net/100/310/257/themes/801944/assets/breadcrum_bg_real.png?1606471870633);
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    padding: 65px 0;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+.breadcrumb-title {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.breadcrumb {
+    margin: 0;
+    font-size: 1.14286em;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    /* background-color: #f5f5f5; */
+    border-radius: 4px;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb li>a {
+    font-size: 1em;
+    color: #fff;
+}
+
+.breadcrumb li span {
+    display: inline;
+    color: #898989;
+}
+
+.breadcrumb li>a>span {
+    color: #fff;
+}
+
+.breadcrumb li strong span {
+    color: #fff;
+}
+
+.col-lg-12 {
+ width:100%
+}

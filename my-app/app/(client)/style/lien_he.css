@@ -1,0 +1,240 @@
+.bread-crumb {
+    background-color: #efefef;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(//bizweb.dktcdn.net/100/310/257/themes/801944/assets/breadcrum_bg_real.png?1606471870633);
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    padding: 65px 0;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+.breadcrumb-title {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.breadcrumb {
+    margin: 0;
+    font-size: 1.14286em;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    /* background-color: #f5f5f5; */
+    border-radius: 4px;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb li>a {
+    font-size: 1em;
+    color: #fff;
+}
+
+.breadcrumb li span {
+    display: inline;
+    color: #898989;
+}
+
+.breadcrumb li>a>span {
+    color: #fff;
+}
+
+.breadcrumb li strong span {
+    color: #fff;
+}
+
+.col-lg-12 {
+    width: 100%;
+
+}
+
+.contact h2.title-head {
+    text-transform: inherit;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact h2 {
+    font-size: 21px;
+    color: #252525;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.title-head {
+    font-size: 2.14286em;
+    color: #333;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+}
+
+.rows.row-8Gutter {
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.form-group {
+    margin: 0 0 15px 0;
+    padding: 0;
+    border: 0;
+}
+
+.contact .form-group .form-control {
+    border-radius: 0;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
+.form-group .form-control {
+    display: block;
+    width: 100%;
+    min-height: 45px;
+    padding: .375rem 20px;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    margin: 0;
+    border: none !important;
+    border-radius: 0px;
+    box-shadow: none !important;
+}
+
+.form-group input,
+.form-group select,
+.form-group text-area {
+    height: 40px;
+    box-sizing: 0;
+    box-shadow: none;
+    background: #fff;
+}
+
+.btn.btn-primary,
+input.btn-primary[type="submit"] {
+    background: #c10a28;
+    color: #fff;
+}
+
+.btn-contact {
+    padding: 0 40px;
+    text-transform: inherit;
+}
+
+.contact .form-group textarea.form-control {
+    padding-top: 12px;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+textarea {
+    width: 100% !important;
+}
+
+.btn,
+input[type="submit"] {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    text-align: center;
+    white-space: nowrap;
+    outline: none !important;
+    cursor: pointer;
+    border: none;
+    font-weight: 400;
+    border-radius: 0;
+    letter-spacing: 0;
+    -webkit-transition: background-color 0.1s ease-in;
+    -moz-transition: background-color 0.1s ease-in;
+    -ms-transition: background-color 0.1s ease-in;
+    -o-transition: background-color 0.1s ease-in;
+    transition: background-color 0.1s ease-in;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+.contact .contact-box-info {
+    margin: 10px 0;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px !important;
+}
+
+.contact .contact-box-info .item:last-child {
+    border: none;
+}
+
+.contact .contact-box-info .item {
+    color: #707070;
+    padding: 10px 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.contact .contact-box-info .item>div {
+    margin-bottom: 20px;
+}
+
+.contact .contact-box-info .item .fa {
+    width: 40px;
+    height: 40px;
+    background: #c10a28;
+    color: #fff;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.contact .contact-box-info .item .info {
+    padding-left: 50px;
+}
+
+label,
+legend {
+    display: block !important;
+    margin-bottom: 2px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.contact .contact-box-info .item .info a {
+    color: #c10a28;
+}
+
+.contact .contact-box-info a {
+    display: block;
+    color: #707070;
+}
+.box-maps iframe{
+    width: 100%;
+    padding: 10px;
+}

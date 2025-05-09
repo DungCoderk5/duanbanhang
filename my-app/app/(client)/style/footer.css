@@ -1,0 +1,65 @@
+.footer {
+    background-color: #363636;
+    color: #fff;
+    padding: 40px 0;
+    text-align: left;
+    clear:both;
+    height:400px;
+}
+.container4 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-column {
+    width: 23%; /* Chia đều các cột */
+    min-width: 200px;
+}
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.footer-column p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin-bottom: 10px;
+    position:relative;
+    padding-left:10px;
+}
+.footer-column ul li:before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: #959595;
+    position: absolute;
+    left: 0;
+    top: 11.5px;
+    border-radius: 50%;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size:16px;
+}
+.footer-column ul li a:hover {
+    color: #fff;
+}
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+}
+.footer-bottom a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
